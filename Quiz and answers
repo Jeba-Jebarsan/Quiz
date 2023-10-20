@@ -1,1 +1,126 @@
-# Qui
+import time
+from tqdm.auto import trange
+print("\t\t\033[1mGENERAL KNOWLEDGE QUESTION QUIZ \033[0m")
+print("\t\t*******************************")
+time.sleep(0.7)
+
+name=input("Enter your name:")
+time.sleep(0.4)
+print(f"HELLO {name} WELCOME TO OUR QUIZ EXAM ")
+time.sleep(0.5)
+age=int(input("\nEnter your age:"))
+
+if age>=5:
+	 time.sleep(0.4)
+	 print("good")
+	 time.sleep(0.7)
+	 print("\nLet's begin")
+	 time.sleep(0.4)
+	 score = 0 
+#	 if ans:
+#	 	print("well")
+	 #else:
+	 #	print("why")
+	 print("\n\t\033[37m 1.What is the capital of France?\033[0m")
+	 print("\t1.Berlin")
+	 print("\t2.Paris")
+	 print("\t3.Madrid")
+	 print("\t4.Rome")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==2:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1 
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32mcorrect answer is 2 \033[0m")
+	 time.sleep(0.9)
+	 print("\n\t\033[37m 2.How many planets are there in our solar system?\033[0m")
+	 print("\t1.10")
+	 print("\t2.7")
+	 print("\t3.12")
+	 print("\t4.8")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==4:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1  
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 
+	 	time.sleep(0.3)
+	 	print("\t\t\t\033[32mcorrect answer is 4 \033[0m")
+	 time.sleep(0.9)
+	 print("\n\t\033[37m 3.Which gas do plants absorb from the atmosphere?\033[0m")
+	 print("\t1.Carbon Dioxide")
+	 print("\t2.Oxygen")
+	 print("\t3.Hydrogen")
+	 print("\t4.Nitrogen")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==1:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1  
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 	time.sleep(0.3)
+	 	print("\t\t\t\033[32mcorrect answer is 1 \033[0m")
+	 time.sleep(0.9)
+	 print("\n\t\033[37m 4.Which continent is known as the \033[1mLand Down\033[0m Under?\033[0m")
+	 print("\t1.Europe")
+	 print("\t2.Asia")
+	 print("\t3.Australia")
+	 print("\t4.Africa")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==3:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1  
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 	time.sleep(0.3)
+	 	print("\t\t\t\033[32mcorrect answer is 3 \033[0m")
+	 time.sleep(0.9)
+	 	
+	 print("\n\t\033[37m 5.Which river is the longest in the world?\033[0m")
+	 print("\t1.Nile River")
+	 print("\t2.Amazon River")
+	 print("\t3.Yangtze River")
+	 print("\t4.Mississippi River")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==1:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1  
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 	time.sleep(0.3)
+	 	print("\t\t\t\033[32mcorrect answer is 1 \033[0m")
+	 time.sleep(0.9)
+	 print("\n\t\033[37m 6.Which country is famous for its fjords, northern lights, and Vikings?\033[0m")
+	 print("\t1.Greece")
+	 print("\t2.Italy")
+	 print("\t3.Russia")
+	 print("\t4.Norway")
+	 ans=int(input("\t\t\tEnter your answer?...."))
+	 if ans==4:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[32m✓correct\033[0m")
+	 	score += 1  
+	 else:
+	 	time.sleep(0.6)
+	 	print("\t\t\t\033[31m×wrong!\033[0m")
+	 	time.sleep(0.3)
+	 	print("\t\t\t\033[32mcorrect answer is 4 \033[0m")
+	 	time.sleep(0.4)
+	 for i in trange(8, desc= ()):
+	 	time.sleep(0.6)
+	 	
+	 	
+	 	# Add more questions here...
